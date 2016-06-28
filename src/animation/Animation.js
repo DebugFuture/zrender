@@ -159,7 +159,7 @@ define(function(require) {
          * @param {int} performanceImpactNum 动画性能较差，导致CPU利用率100%，风扇狂转，可调高performanceImpactNum，取值自然数，越大则性能约好，但动画效果越差。默认值为3。
          */
         start: function (performanceImpactNum) {
-            performanceImpactNum = performanceImpactNum ? performanceImpactNum : 0;
+            performanceImpactNum = performanceImpactNum ? performanceImpactNum : 3;
             
             var self = this;
 
